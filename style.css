@@ -1,0 +1,66 @@
+body {
+    background-color: #ebaed3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    font-family: 'montserrat',sans-serif;
+}
+
+h1,h3{
+    color: white;
+}
+
+.content {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #399641;
+    max-width: 1000px;
+    column-count: 3; 
+    column-gap: 15px; 
+}
+
+.content-text {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #399641; 
+}
+
+.kotak {
+    width: 100%;
+}
+
+.headline-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+video {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.kotak img, .kotak iframe {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px; 
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.kotak img:hover {
+    object-fit: fill;
+    height: 100%;
+}
+
+.kotak h1{
+    word-wrap: break-word;
+    white-space: normal;
+}
