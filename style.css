@@ -67,8 +67,8 @@ video {
 
 @media (max-width: 600px) {
     .kotak {
-        width: 100%; /* Full width on mobile */
-        padding: 10px; /* Add some padding */
+        width: 100%; 
+        padding: 10px;
     }
 
     .headline-text h1, .headline h1 {
