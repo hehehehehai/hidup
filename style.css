@@ -64,3 +64,32 @@ video {
     word-wrap: break-word;
     white-space: normal;
 }
+
+@media (max-width: 600px) {
+    .kotak {
+        width: 100%; /* Full width on mobile */
+        padding: 10px; /* Add some padding */
+    }
+
+    .headline-text h1, .headline h1 {
+        font-size: 18px; /* Smaller font size for mobile */
+    }
+
+    .headline img, .headline video {
+        width: 100%; /* Scale images and videos to fit screen width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    h1 {
+        font-size: 16px; /* Adjust font size of other <h1> elements */
+        line-height: 1.2; /* Improve readability */
+    }
+
+    video {
+        width: 100%; /* Ensure video scales with screen */
+    }
+
+    body {
+        font-size: 14px; /* Smaller base font size for mobile */
+    }
+}
